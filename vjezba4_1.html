@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Beauty Studio - Forma</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <style>
+        body {
+            margin: 30px;
+            background-color: #f8eeee;
+            font-family: Arial, sans-serif;
+        }
+
+        h2 {
+            color: #b47777;
+        }
+
+        form {
+            width: 350px;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        .btn-primary {
+            background-color: #c58e8e;
+            border-color: #c58e8e;
+        }
+
+        .btn-primary:hover {
+            background-color: #a96f6f;
+            border-color: #a96f6f;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h2>Beauty Studio - Registracija</h2>
+
+    <p>Unesite svoje podatke:</p>
+
+    <form>
+
+        <div class="form-group">
+            <label for="ime">Ime:</label>
+            <input type="text" class="form-control"
+            id="ime" name="ime" placeholder="Unesite ime">
+        </div>
+
+        <div class="form-group">
+            <label for="prezime">Prezime:</label>
+            <input type="text" class="form-control"
+            id="prezime" name="prezime" placeholder="Unesite prezime">
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" class="form-control"
+            id="email" name="email" placeholder="Unesite e-mail">
+        </div>
+
+        <div class="radio">
+            <label>
+                <input type="radio" name="spol" value="Musko">
+                Muško
+            </label>
+        </div>
+
+        <div class="radio">
+            <label>
+                <input type="radio" name="spol" value="Zensko">
+                Žensko
+            </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+            Pošalji
+        </button>
+
+        <button type="reset" class="btn btn-default">
+            Poništi
+        </button>
+
+    </form>
+
+</body>
+</html>
